@@ -10,9 +10,8 @@
 //        Para a discagem: 33 1 4411-1030 o sistema deve exibir cada passo desta entrada na MT e, ao final,
 //        a mensagem: “chamada do Brasil para região parisiense”.
 
-package com.company;
+package br.usjt;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 // classe responsavel pela simulacao da maquina de Turing
