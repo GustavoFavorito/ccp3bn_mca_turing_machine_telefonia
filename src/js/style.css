@@ -115,3 +115,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+#modal-output {
+    width: 40%;
+}
