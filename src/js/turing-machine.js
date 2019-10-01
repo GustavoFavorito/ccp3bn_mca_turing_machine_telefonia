@@ -8,6 +8,7 @@ function turingMachine() {
         if (parse.length == 10) {
             if (parse[0] == 0) {
                 msg = "";
+                //checkDigit(0, parse);
                 checkRegion(String(parse[1]), msg);
             }
         } else if (parse.length == 11) {
@@ -53,3 +54,9 @@ function checkRegion(expression, msg) {
             break;
     }
 }
+
+/*function checkDigit(pos, parse) {
+    for (var index = 0; index <= pos; index++) {
+        console.log(parse[index]);
+    }
+}*/
